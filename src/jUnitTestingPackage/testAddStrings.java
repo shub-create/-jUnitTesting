@@ -9,8 +9,8 @@ class testAddStrings {
 	@Test
 	void test() {
 		jUnitFunction junitStrings = new jUnitFunction();
-		String result = junitStrings.addStrings("Be Happy"," Always Love Life");
-		assertEquals("Be Happy Always Love Life", result);
+		String result = junitStrings.addStrings("Be you and", " Always Love Life");
+		assertEquals("Be you and Always Love Life", result);
 	}
 
 }
